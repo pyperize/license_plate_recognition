@@ -1,6 +1,4 @@
 from __future__ import annotations
-import os
-os.environ["NO_ALBUMENTATIONS_UPDATE"] = "1"
 from packages.license_plate_recognition.algorithm import LicensePlateRecognitionPipe
 from packages.license_plate_recognition.data import LicensePlateRecognitionDataPipe
 from src.package.package import Package
